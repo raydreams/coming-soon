@@ -31,9 +31,9 @@ const ContactUs = () => {
       .send("service_l7fduua", "template_wdfz5vk", data)
       .then(function (response) {
         if (response.status == 200) {
-          toast.success("Thanks for joining our waitlist!", {
+          toast.success("thanks for joining our waitlist!", {
             description:
-              "We'll keep you informed and notify you once we launch.",
+              "we'll keep you informed and notify you once we launch.",
           });
         }
       });
@@ -65,7 +65,7 @@ const ContactUs = () => {
               className="appearance-none block w-full bg-gray-200 border text-gray-700 border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="name"
               type="text"
-              placeholder="Lokmane Elhakim"
+              placeholder="ray"
               {...register("firstName")}
             />
             <p className="text-xs italic"></p>
@@ -84,7 +84,7 @@ const ContactUs = () => {
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
-              placeholder="lokmaneelhakim@gmail.com"
+              placeholder="raysemail200@realmail.gg"
               {...register("email")}
             />
           </div>
@@ -95,12 +95,12 @@ const ContactUs = () => {
               className="block uppercase tracking-wide text-xs font-bold mb-2"
               htmlFor="message"
             >
-              Message / feedback (optional)
+              msg / feedback (optional)
             </label>
             <textarea
               className="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
               id="message"
-              placeholder="Hi, I am reaching out as a potential customer of your platform. I recently learned about your SaaS offerings and am incredibly excited about the possibilities they hold."
+              placeholder="hi, i am reaching out as a potential customer of your services. i recently learned about your offerings & past work. least to say, i'm excited about the possibilities you hold."
               {...register("message")}
             ></textarea>
           </div>
@@ -109,7 +109,7 @@ const ContactUs = () => {
           cn="focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded md:w-max-fit lg:w-44 m-auto"
           type="submit"
           color="inverted"
-          label="Join the wailist"
+          label="join wailist"
           handleClick={() =>
             setTimeout(() => {
               reset();
