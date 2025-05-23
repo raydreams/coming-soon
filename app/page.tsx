@@ -77,8 +77,6 @@ export default async function Index() {
               svg={{ component: <GoArrowRight className="ml-2" /> }}
             />
           </motion.div>
-
-          <Faq />
         </div>
       </div>
     </>
