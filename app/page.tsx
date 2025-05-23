@@ -9,7 +9,7 @@ export default async function Index() {
   return (
     <>
       <button className="right-3 top-3 fixed cursor-pointer m-5/2 p-3 border-none rounded-full z-30 bg-black mb-5">
-        <a href="https://github.com/Lokmaneelhakim" target="_blank">
+        <a href="https://github.com/raydreams" target="_blank">
           <svg
             viewBox="0 0 16 16"
             className="w-5 h-5"
@@ -36,9 +36,9 @@ export default async function Index() {
             }}
             transition={{ duration: 1.2 }}
           >
-            Empowering students
+            let's explore the
             <br />
-            Unlocking potentials
+            future together
           </motion.h1>
           <motion.p
             className="mt-4 sm:text-xl/relaxed mb-5 text_gradient"
@@ -54,7 +54,7 @@ export default async function Index() {
             }}
             transition={{ duration: 1.2 }}
           >
-            Be the first to experience the future!
+             coming soon to you.
           </motion.p>
           <motion.div
             className="mt-8 flex sm:flex-row flex-col items-center justify-center gap-4 mb-5 "
@@ -71,15 +71,8 @@ export default async function Index() {
             transition={{ duration: 1.2 }}
           >
             <TransitionLink
-              color="inverted"
-              href="/presentation"
-              cn="block w-full rounded py-4 mr-2 text-sm font-medium text-white shadow focus:outline-none focus:ring max-w-40"
-              label="Take the tour"
-              svg={{ component: <GoBook className="ml-4 mr-0" /> }}
-            />
-            <TransitionLink
               cn="block w-full rounded px-12 py-4 text-sm font-medium shadow focus:outline-none  active:text-grey-500 max-w-40"
-              label="Join the Waitlist"
+              label="waitlist"
               href="/contact_us"
               svg={{ component: <GoArrowRight className="ml-2" /> }}
             />
